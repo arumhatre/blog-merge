@@ -602,34 +602,9 @@ a:focus{
 .treatment_all_comm_div.table_of_content_list_section ol li a:hover{color:#154778}
 @media screen and (max-width:600px){
 .treatment_all_comm_div.table_of_content_list_section ol li:not(:last-child) a::after{content:none}
-.treatment_all_comm_div.table_of_content_list_section ol {
-    list-style: none; /* Remove default bullets */
-    padding-left: 15px; /* Adjust padding for markers */
-    padding-top: 20px;
-}
-
-.treatment_all_comm_div.table_of_content_list_section ol li {
-    position: relative;
-    padding-left: 15px; /* Space for the image marker */
-    font-size: 12px;
-    line-height: 1.6;
-    margin-bottom: 15px;
-}
-
-/* Custom Image Marker */
-.treatment_all_comm_div.table_of_content_list_section ol li::before {
-    content: "";
-    background-image: url("../images/custom-marker.png"); /* Path to marker image */
-    background-size: contain; /* Ensure it fits well */
-    background-repeat: no-repeat;
-    width: 14px; /* Adjust size */
-    height: 14px;
-    position: absolute;
-    left: 0;
-    top: 3px; /* Adjust alignment */
-}
-
-
+.treatment_all_comm_div.table_of_content_list_section ol{list-style:none;padding-left:15px;padding-top:20px}
+.treatment_all_comm_div.table_of_content_list_section ol li{position:relative;padding-left:15px;font-size:12px;line-height:1.6;margin-bottom:15px}
+.treatment_all_comm_div.table_of_content_list_section ol li::before{content:"";background-image:url("../images/custom-marker.png");background-size:contain;background-repeat:no-repeat;width:14px;height:14px;position:absolute;left:0;top:3px}
 }
 .treatment_all_comm_div #show-hidden-menu-table-content{font-size:16px!important;color:#1f83c5;font-weight:600;display:inline-flex;align-items:baseline}
 .treatment_all_comm_div #show-hidden-menu-table-content::after{content:"";background:url(../images/angle-down.svg) no-repeat center;width:31px;height:22px;transition:.4s;display:inline-block;position:relative;top:0;left:5px}
